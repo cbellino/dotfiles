@@ -5,6 +5,7 @@ install caskroom/cask/brew-cask
 tap caskroom/versions
 
 cask install alfred 2> /dev/null
+cask install sizeup 2> /dev/null
 cask install evernote 2> /dev/null
 cask install dropbox 2> /dev/null
 cask install google-chrome 2> /dev/null
