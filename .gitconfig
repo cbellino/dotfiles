@@ -96,7 +96,7 @@
 	# More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
 	trustctime = false
 
-	editor = subl
+	editor = subl -n -w
 
   autocrlf = false
   safecrlf = false
@@ -152,7 +152,7 @@
 	# Use the Git 1.x.x default to avoid errors on machines with old Git
 	# installations. To use `simple` instead, add this to your `~/.extra` file:
 	# `git config --global push.default simple`. See http://git.io/mMah-w.
-	default = current
+	default = matching
 
 # URL shorthands
 

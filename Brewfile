@@ -2,7 +2,7 @@
 # Usage: `brew bundle Brewfile`
 
 # Make sure we’re using the latest Homebrew
-# update
+update
 
 # Upgrade any already-installed formulae
 upgrade
@@ -28,7 +28,7 @@ install wget --enable-iri
 install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
-install homebrew/php/php55 --with-gmp
+install homebrew/php/php56 --with-apache --with-fpm --with-homebrew-openssl --with-thread-safety
 
 # Install other useful binaries
 install ack
@@ -49,7 +49,7 @@ install sqlmap
 install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
-install xpdf
+# install xpdf
 install zopfli
 
 install homebrew/versions/lua52
