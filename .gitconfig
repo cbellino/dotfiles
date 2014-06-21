@@ -57,6 +57,25 @@
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
 
+  rb = rebase
+  poule = pull
+  cocotte = pull
+  moustache = stash
+  arbre = branch -a
+  fusion = merge --no-ff
+  pousse = push
+  undo = git reset --soft HEAD^
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+  lp = log --pretty=oneline --graph --all
+  lo = log --oneline
+  tree = log --graph --decorate --pretty=oneline --abbrev-commit
+  up = fetch --all --prune
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
@@ -76,6 +95,17 @@
 	# Make `git rebase` safer on OS X
 	# More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
 	trustctime = false
+
+	editor = subl
+
+  autocrlf = false
+  safecrlf = false
+
+  ui = true
+  branch = true
+  diff = true
+  interactive = true
+  status = true
 
 [color]
 
@@ -122,7 +152,7 @@
 	# Use the Git 1.x.x default to avoid errors on machines with old Git
 	# installations. To use `simple` instead, add this to your `~/.extra` file:
 	# `git config --global push.default simple`. See http://git.io/mMah-w.
-	default = matching
+	default = current
 
 # URL shorthands
 
