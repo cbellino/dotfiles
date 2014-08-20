@@ -32,3 +32,13 @@ cask install bittorrent-sync 2> /dev/null
 cask install adobe-creative-cloud 2> /dev/null
 cask install mumble 2> /dev/null
 cask install steam 2> /dev/null
+cask install flash 2> /dev/null
+cask install grooveshark 2> /dev/null
+cask install bartender 2> /dev/null
+cask install growlnotify 2> /dev/null
+cask install flux 2> /dev/null
+cask install dash 2> /dev/null
+cask install keepassx 2> /dev/null
+cask install versions 2> /dev/null
+cask install osxfuse 2> /dev/null
+cask install keyboard-maestro 2> /dev/null

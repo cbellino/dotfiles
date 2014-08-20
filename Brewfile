@@ -51,6 +51,8 @@ install ucspi-tcp # `tcpserver` et al.
 install webkit2png
 # install xpdf
 install zopfli
+install android-sdk
+install ant
 
 install homebrew/versions/lua52
 
