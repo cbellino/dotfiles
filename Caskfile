@@ -18,12 +18,12 @@ cask install miro-video-converter 2> /dev/null
 cask install sublime-text3 2> /dev/null
 cask install the-unarchiver 2> /dev/null
 cask install transmission 2> /dev/null
-cask install ukelele 2> /dev/null
+# cask install ukelele 2> /dev/null
 cask install virtualbox 2> /dev/null
 cask install vagrant 2> /dev/null
 cask install vagrant-manager 2> /dev/null
-cask install kaleidoscope 2> /dev/null
-cask install tower 2> /dev/null
+# cask install kaleidoscope 2> /dev/null
+# cask install tower 2> /dev/null
 cask install vlc 2> /dev/null
 cask install transmit 2> /dev/null
 cask install navicat-premium 2> /dev/null
@@ -42,3 +42,8 @@ cask install keepassx 2> /dev/null
 cask install versions 2> /dev/null
 cask install osxfuse 2> /dev/null
 cask install keyboard-maestro 2> /dev/null
+cask install sqlite-database-browser 2> /dev/null
+cask install android-file-transfer 2> /dev/null
+cask install gifrocket 2> /dev/null
+# cask install hipchat 2> /dev/null
+cask install xtrafinder 2> /dev/null

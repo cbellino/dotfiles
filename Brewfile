@@ -37,6 +37,8 @@ install foremost
 install git
 install hashpump
 install imagemagick --with-webp
+install gifsicle
+install imagemagick
 install lynx
 install nmap
 install node # This installs `npm` too using the recommended installation method
@@ -51,8 +53,12 @@ install ucspi-tcp # `tcpserver` et al.
 install webkit2png
 # install xpdf
 install zopfli
-install android-sdk
-install ant
+# install android-sdk
+# install ant
+install ffmpeg
+install hub
+# install macvim --override-system-vim
+
 
 install homebrew/versions/lua52
 
