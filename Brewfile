@@ -58,7 +58,8 @@ install zopfli
 install ffmpeg
 install hub
 # install macvim --override-system-vim
-
+install python
+install watchman
 
 install homebrew/versions/lua52
 
